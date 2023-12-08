@@ -13,74 +13,88 @@
         <!-- Nav -->
         <nav>
             <div id="navbar">
-                <div>
-                    <img src="./assets/images/MARK.svg" alt="">
+                <img src="./assets/images/MARK.svg" alt="Imaginary Solutions Logo">
+                <!-- Hamburger -->
+                <div id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
+                <!-- Nav Links -->
                 <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Approach</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Join Us</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#approach">Approach</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#join-us">Join Us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
                 </ul>
             </div>
         </nav>
-            <div id="cta">
-                <h3>Welcome to</h3>
-                <img src="./assets/images/LOGO.svg" alt="">
-            </div>
+        <div id="cta">
+            <img src="./assets/images/LOGO.svg" alt="Imaginary Solutions Main Logo">
+        </div>
     </header>
 
-    <!-- CONTENT -->
-    <main>
+    <!-- Main Content -->
+    <main id="main-content">
         <!-- Welcome Section -->
-        <div class="wrapper" id="welcome">
-            <h2>At Imaginary Solutions Inc., we specialize in the extraordinary – crafting innovative and entirely fictional solutions to tackle everyday challenges. We're not bound by the constraints of reality; instead, we harness the power of imagination to provide cutting-edge services that push the boundaries of what's possible.
-            </h2>
-        </div>
+        <section id="welcome" class="wrapper">
+            <h2>Welcome to Imaginary Solutions Inc.</h2>
+            <p>At Imaginary Solutions Inc., we specialize in the extraordinary – crafting innovative and entirely fictional solutions to tackle everyday challenges. We're not bound by the constraints of reality; instead, we harness the power of imagination to provide cutting-edge services that push the boundaries of what's possible.</p>
+            <div class="two-btn">
+                <div>
+                    <a class="btn" href="calculator.html">Calculator</a>
+                </div>
 
-        <!-- ABOUT US -->
-        <div class="wrapper-width" id="about">
-        <h2>About Us</h2>
+                <div>
+                    <a class="btn" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </section>
 
-        <p>Founded on the belief that creativity knows no bounds, Imaginary Solutions Inc. is a trailblazing service company dedicated to delivering imaginative and futuristic solutions. Our team of visionaries and dreamers strives to revolutionize problem-solving through innovative thinking and limitless imagination.
-        </p>
-        </div>
+        <!-- About Us -->
+        <section id="about" class="wrapper-width">
+            <h2>About Us</h2>
+            <p>Founded on the belief that creativity knows no bounds, Imaginary Solutions Inc. is a trailblazing service company dedicated to delivering imaginative and futuristic solutions. Our team of visionaries and dreamers strives to revolutionize problem-solving through innovative thinking and limitless imagination.</p>
+        </section>
 
         <!-- Our Approach -->
-        <div class="wrapper-width" id="approach">
-        <h2>Our Approach</h2>
-
-        <p>Embracing the unconventional, we redefine problem-solving by creating entirely fictional yet awe-inspiring solutions tailored to your needs. From whimsical concepts to futuristic innovations, we're committed to offering imaginative alternatives that transcend the ordinary
-        </p>
-        </div>
+        <section id="approach" class="wrapper-width">
+            <h2>Our Approach</h2>
+            <p>Embracing the unconventional, we redefine problem-solving by creating entirely fictional yet awe-inspiring solutions tailored to your needs. From whimsical concepts to futuristic innovations, we're committed to offering imaginative alternatives that transcend the ordinary.</p>
+        </section>
 
         <!-- Services -->
-        <div class="wrapper-width" id="services">
-        <h2>Services We Offer</h2>
+        <section id="services" class="wrapper-width">
+            <h2>Services We Offer</h2>
+            <div class="gallery">
+                <article class="card">
+                    <h3>InnoCalc - Futuristic Solution Generator</h3>
+                    <p>Our interactive tool generates playful and creative solutions for everyday challenges, fueled by the power of imagination.</p>
+                </article>
+                <article class="card">
+                    <h3>Custom Imagination Projects</h3>
+                    <p>Let us turn your wildest ideas into conceptual projects, utilizing our expertise in crafting fictional solutions for any scenario.</p>
+                </article>
+                <article class="card">
+                    <h3>Futurology Consultancy</h3>
+                    <p>Gain insights into the future with our consultations on speculative and visionary concepts, exploring possibilities beyond conventional thinking.</p>
+                </article>
+            </div>
+        </section>
 
-        <p>InnoCalc - Futuristic Solution Generator: Our interactive tool generates playful and creative solutions for everyday challenges, fueled by the power of imagination*.</p>
-
-        <p>Custom Imagination Projects: Let us turn your wildest ideas into conceptual projects, utilizing our expertise in crafting fictional solutions for any scenario.</p>
-
-        <p>Futurology Consultancy: Gain insights into the future with our consultations on speculative and visionary concepts, exploring possibilities beyond conventional thinking.</p>
-        </div>
-
-        <!-- JOIN US -->
-        <div class="wrapper-width" id="join-us">
-        <h2>Join Us in Shaping Tomorrow</h2>
-
-        <p>Are you ready to explore the limitless potential of imagination? Join us on a journey where creativity knows no bounds. Let's shape a future where the only limit is the extent of our imagination.</p>
-        </div>
+        <!-- Join Us -->
+        <section id="join-us" class="wrapper-width">
+            <h2>Join Us in Shaping Tomorrow</h2>
+            <p>Are you ready to explore the limitless potential of imagination? Join us on a journey where creativity knows no bounds. Let's shape a future where the only limit is the extent of our imagination.</p>
+        </section>
 
         <!-- Contact Us -->
-        <div class="wrapper-width" id="contact-us">
-        <h2>Contact Us</h2>
-
-        <p>Ready to embark on an imaginative adventure? Reach out to us today to discover how Imaginary Solutions Inc. can turn your imaginative dreams into fictional realities.</p>
-        </div>
+        <section id="contact-us" class="wrapper-width">
+            <h2>Contact Us</h2>
+            <p>Ready to embark on an imaginative adventure? Reach out to us today to discover how Imaginary Solutions Inc. can turn your imaginative dreams into fictional realities.</p>
+        </section>
     </main>
-
+    <script src="./assets/scripts/script.js"></script>
 </body>
-<script src="./assets/scripts/script.js"></script>
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- Nav -->
+        <nav>
+            <div id="navbar">
+                <img src="./assets/images/MARK.svg" alt="Imaginary Solutions Logo">
+                <!-- Hamburger -->
+                <div id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Nav Links -->
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#approach">Approach</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#join-us">Join Us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Unit Converter</h1>
+
+        <input type="number" id="input-value" placeholder="Enter value">
+        
+        <button onclick="fahrenheitToCelsius()">Fahrenheit to Celsius</button>
+        <button onclick="feetToMiles()">Feet to Miles</button>
+        <button onclick="inchesToCentimeters()">Inches to Centimeters</button>
+
+        <div id="result"></div>
+    </div>
+<script src="./assets/scripts/script.js"></script>
+</body>
+</html>
